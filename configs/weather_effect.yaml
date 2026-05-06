@@ -1,0 +1,39 @@
+rain:
+  num_particles: 40000
+  color: [0.7, 0.7, 0.8]
+
+  opacity_mean: 0.13
+  opacity_std: 0.05
+
+  scale_x: 0.0023
+  scale_y: 0.0006
+  scale_z: 0.070
+  scale_std: 0.1
+
+  velocity: 1.2
+  wind_angle: 15.0 # deg
+  wind_angle_std: 3.0 # deg
+  wind_azimuth: 45.0 # deg
+
+snow:
+  num_particles: 60000
+  color: [0.9, 0.9, 0.95]
+
+  opacity_mean: 0.2
+  opacity_std: 0.15
+
+  scale_x: 0.009
+  scale_y: 0.0054
+  scale_z: 0.0054
+  scale_std: 0.5
+
+  velocity: 0.9
+  wind_angle: 20.0
+  wind_angle_std: 5.0
+  wind_azimuth: 30.0
+  velocity_turbulence: 0.1
+
+fog:
+  color: [0.8, 0.8, 0.85]
+  intensity: 0.1
+  smooth: true
